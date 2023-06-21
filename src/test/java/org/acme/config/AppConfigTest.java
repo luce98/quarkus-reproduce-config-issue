@@ -16,7 +16,7 @@ class AppConfigTest {
     AppConfig appConfig;
 
     @Test
-    void testHelloEndpoint() {
+    void testConfiguration() {
         assertThat(appConfig.testUsername(), is("the-right-one"));
     }
 }
